@@ -13,3 +13,6 @@ class Hero:
         if self.weapon is not None and not self.isWeaponEquipped:
             self.attackDamage += self.weapon.attackIncrease
             self.isWeaponEquipped = True
+
+    def attack(self):
+        print(f"Hello attacks for {self.attackDamage} damage")
