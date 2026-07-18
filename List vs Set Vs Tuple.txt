@@ -1,0 +1,4 @@
+List = []         -> Ordered and changeable -> Duplicates allowed
+set = {}          -> Unordered and immutable -> Add/Remove allowed -> No Duplicates allowed
+Tuple = ()        -> Ordered and immutable -> Duplicates allowed
+Dictionary = {}   -> Ordered and mutable -> No Duplicates allowed
