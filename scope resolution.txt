@@ -1,0 +1,13 @@
+variable scope = where a variable is visible or accessible
+
+scope resolution = LEGB order
+Local
+Enclosed
+Global
+Built in
+
+
+first python will try to find Local variable
+if not found, then Enclosed
+if not found, then Global
+if not found, Built in
